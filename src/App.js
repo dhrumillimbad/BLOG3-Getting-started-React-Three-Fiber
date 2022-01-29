@@ -139,7 +139,7 @@ export default function App() {
       <Suspense fallback={<Loader />}>
         <Box />
         <Sphere position={[0, 0, 1]} />
-        <Shoes range="5" />
+        <Shoes range="3" />
         <Environment preset="city" />
       </Suspense>
       <OrbitControls />
